@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV et contact du portfolio BTS SIO SISR">
+    <title>CV / Contact | Portfolio BTS SIO SISR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête et navigation commune -->
+    <header class="site-header">
+        <a class="logo" href="index.html">Portfolio <span>BTS SIO SISR</span></a>
+        <nav aria-label="Navigation principale">
+            <ul class="nav-list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a class="active" href="cv-contact.html" aria-current="page">CV / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="theme-hero theme-savanna" aria-labelledby="contact-title">
+        <svg class="theme-hero__art" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">
+            <defs><linearGradient id="savannaFade" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#9c4f2e" stop-opacity="0.9"/><stop offset="1" stop-color="#9c4f2e" stop-opacity="0"/></linearGradient></defs>
+            <circle cx="940" cy="105" r="55" fill="#f9d27b" opacity="0.9"/>
+            <path d="M0 360 Q240 270 470 330 T1200 305 L1200 360z" fill="#bd6c39" opacity="0.5"/>
+            <path d="M80 360 L150 175 M150 220 Q70 165 25 195 M150 220 Q230 160 295 185 M150 245 Q75 225 35 255 M150 245 Q220 220 275 250" stroke="url(#savannaFade)" stroke-width="11" fill="none"/>
+            <path d="M1120 360 L1080 190 M1080 220 Q1015 170 970 195 M1080 220 Q1140 165 1190 190" stroke="url(#savannaFade)" stroke-width="10" fill="none"/>
+            <g fill="#a94e2d" opacity="0.65"><path d="M0 45 Q140 90 245 190 L185 135 Q85 80 0 75z"/><path d="M1200 45 Q1060 90 955 190 L1015 135 Q1115 80 1200 75z"/></g>
+        </svg>
+        <div class="theme-hero__content">
+            <p class="eyebrow">Me contacter</p>
+            <h1 id="contact-title">CV / Contact</h1>
+            <p class="intro">Retrouvez mon CV et utilisez l'adresse ci-dessous pour me joindre.</p>
+        </div>
+    </section>
+    <main class="page-section">
+        <header class="content-header">
+            <p class="eyebrow">Documents et échanges</p>
+            <h2>Mon CV et mes coordonnées</h2>
+        </header>
+
+        <section class="contact-box" aria-labelledby="contact-title">
+            <h2 id="contact-title">Mon CV</h2>
+            <a class="button" href="cv.pdf" download>Télécharger le CV (PDF)</a>
+            <h2>Adresse mail</h2>
+            <p><a href="mailto:mohammed.saoudi@my-digital-school.org">prenom.nom@example.com</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Portfolio BTS SIO SISR</p>
+    </footer>
+</body>
+</html>
